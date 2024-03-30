@@ -1,0 +1,337 @@
+[info]
+imagen:Texturas_mapa/Overworld2.png
+imagen2:Texturas_mapa/dungeon_rocks.png
+cantidad_ancho:32
+cantidad_alto:14
+cantidad_ancho2:13
+cantidad_alto2:2
+
+mapa: 4444444..4444444
+      4444243..4444444
+      4443.....4444444
+      443......4444444
+      44.......1444444
+      ................
+      55............55
+      44............44
+      44............44
+      4455555555555544
+      4444444444444444
+
+mapa2: 444444444444..44
+       444444444443..44
+       6.............44
+       6.......6.....14
+       6.........6....1
+       6.6..6..6.g.....
+       6.........6....7
+       6.......6.....74
+       6.............44
+       5555555555555544
+       4444444444444444
+
+mapa3: 448.8.8..8.8.8.8
+       448.8.8..8.8.8.8
+       44.....g........
+       43....8..8.8.8..
+       3.8.8...........
+       ......8..8.8.8..
+       5.8.8...........
+       45....8..8.8.8..
+       44..............
+       4488888888888888
+       4488888888888888
+
+mapa4: 9999999999999999
+       099999$099299999
+       ,09999,,,,,,0999
+       ,,0999,g,,,,,999
+       ,,,099,,,?,,,099
+       ,,,,0$,,?,?,,,,9
+       ,,,,,,,,,?,,,=#9
+       ,,,,,,,,,,,,,999
+       ,,,,=#,,,,,,=999
+       =###99#=####9999
+       9999999999999999
+
+mapa5: 4444444444444444
+       4444444444444444
+       43.......13...14
+       3..6.6.g....6..1
+       ................
+       ...6.6......6...
+       ................
+       5..6.6......6..7
+       45.......75...74
+       4455555..4455544
+       4444444..4444444
+
+mapa6: 448.8.8..8.8.8.8
+       448.8.8..8.8.8.8
+       43.............8
+       3...8....8...8.8
+       ..8.............
+       ....8.8.g8.8.8..
+       ..8.............
+       5...8....8...8.8
+       45.............8
+       448.8.8..8.8.8.8
+       448.8.8..8.8.8.8
+
+mapa7: 8888888..xxxxxxx
+       8888888..xxxxxxx
+       88.......xxxxxxx
+       8....8...xxxxxxx
+       ..8......xxxxxxx
+       .....8.........8
+       ..8.......g....8
+       8....8.........8
+       88.............8
+       8888888888888888
+       8888888888888888
+       
+mapa8: 4444444444444444
+       4444444244444444
+       4.............14
+       4..????........1
+       4.......???.....
+       4..????.....g...
+       4.......???.....
+       4..????........7
+       4.............74
+       455555555555..44
+       444444444444..44
+
+mapa9: xxxxxxx888888888
+       xxxxxxx..8888888
+       xxxxxxx.........
+       xxxxxxx.........
+       xxxxxxx...8.88..
+       8.....g.........
+       555.......8.88..
+       444.............
+       444.............
+       4448888888888888
+       4448888888888888
+
+mapa10:8888888888888888
+       8888888888888888
+       ................
+       .......8.8...8.8
+       ................
+       ...8.8.8g8.8.8.8
+       ................
+       .......8.8...8.8
+       ................
+       8888888888888888
+       8888888888888888
+
+mapa11:8888888888888888
+       8888888..8888888
+       ...............8
+       8.8...8..8.8...8
+       ................
+       8.8.8.8..8.8.8..
+       ................
+       8.8...8..8.8...8
+       ...............8
+       888.8.8..8.8.8.8
+       888.8.8..8.8.8.8
+
+mapa12:8888888..8888888
+       8888888..8888888
+       8888888..8888888
+       8888888..8888888
+       ...............8
+       ........g......8
+       .........xxxxxxx
+       8888888..xxxxxxx
+       8888888..xxxxxxx
+       8888888..xxxxxxx
+       8888888..xxxxxxx
+
+mapa20:8888888888888888
+       8888888888888888
+       8888xxxxxxxx8888
+       8888x......x8888
+       8888x......x8888
+       8888x......x8888
+       8888x......x8888
+       888888....888888
+       888888....888888
+       8888888..8888888
+       8888888..8888888
+
+cueva: kkkkkkkkkkkkkkkk
+       kkkkkkkkkkkkkkkk
+       kknnnnnnnnnnnnkk
+       kkttttttttttttkk
+       kknnnnnnnnnnnnkk
+       kknnnnnnnnnnnnkk
+       kknnnnnnnnnnnnkk
+       kknnnnnnnnnnnnkk
+       kknnnnnnnnnnnnkk
+       kkkkkkknnkkkkkkk
+       kkkkkkknnkkkkkkk
+
+
+[infodemapas]
+
+0:mapa2
+1:mapa
+2:mapa3
+3:mapa4
+4:mapa5
+5:mapa6
+6:mapa7
+7:mapa8
+8:mapa9
+9:mapa10
+10:mapa11
+11:mapa12
+12:cueva
+13:cueva
+14:cueva
+15:dungeon
+16:mapa14
+17:mapa13
+18:mapa15
+19:mapa16
+20:mapa17
+21:mapa18
+22:mapa20
+
+
+[infogeneradores]
+mapa3:destructible
+mapa7:destructible
+mapa9:destructible
+mapa5:destructible
+mapa8:destructible
+mapa2:indestructible
+mapa6:indestructible
+mapa10:indestructible
+mapa4:indestructible
+mapa12:indestructible
+mapa14:invisible2
+mapa16:invisible2
+mapa17:invisible
+
+
+[4]
+tipo:piedra 
+col:22
+fila:6
+
+[.]
+tipo:tierra
+col:17
+fila:4 
+
+[g]
+tipo:tierra
+col:17
+fila:4
+
+[2]
+tipo:entrada 
+col:5
+fila:1
+
+[3]
+tipo:esquina_der
+col:23
+fila:6
+
+[1]
+tipo:esquina_izq
+col:21
+fila:6
+
+[5]
+tipo:pico
+col:20
+fila:6
+
+[6]
+tipo:cactus
+col:18
+fila:6
+
+[7]
+tipo:pico2
+col:19
+fila:6
+
+[8]
+tipo:arbol
+col:17
+fila:6
+
+[9]
+tipo:piedra_roja
+col:30
+fila:6
+
+
+[0]
+tipo:esquina_inferior_roja_izq
+col:29
+fila:6
+
+[$]
+tipo:esquina_inferior_roja_der
+col:31
+fila:6
+
+[,]
+tipo:tierra2
+col:25
+fila:4
+
+[?]
+tipo:caotus_rojo
+col:0
+fila:11
+
+[=]
+tipo:pico_rojo_izq
+col:27
+fila:6
+
+[#]
+tipo:pico_rojo_izq
+col:28
+fila:6
+
+[x]
+tipo:agua
+col:5
+fila:10
+
+[z]
+tipo:esquina_infr_der_agua
+col:4
+fila:10
+
+[k]
+tipo:piedra_cueva
+col:31
+fila:13
+
+[n]
+tipo:fondonegro
+col:5
+fila:2
+
+[t]
+tipo:fondonegro
+col:5
+fila:2
+
+[q]
+tipo:piedra_verda
+col:30
+fila:13
+
+

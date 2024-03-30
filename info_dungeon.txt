@@ -1,0 +1,202 @@
+[info]
+imagen:Texturas_mapa/dungeon.png
+cantidad_ancho:8
+cantidad_alto:8
+
+mapa13:NNNNNNN6KNNNNNNN
+       NNNNNNNKKNNNNNNN
+       NN............NN
+       NN.3..3..5..5.NN
+       NN............NN
+       QN.3..3..5..5.HK
+       NN.....11.....NN
+       NN.3.131151.3.NN
+       NN...111111...NN
+       NNNNNNNRNNNNNNNN
+       NNNNNNNNNNNNNNNN
+
+mapa14:NNNNNNNUNNNNNNNN
+       NNNNNNNNNNNNNNNN
+       NN......P.....NN
+       NN............NN
+       NN..44....44..NN
+       SK..44.G..44..BN
+       NN..44....44..NN
+       NN..P..P......NN
+       NN..........F.NN
+       NNNNNNNWNNNNNNNN
+       NNNNNNNNNNNNNNNN
+
+mapa15:NNNNNNN6KNNNNNNN
+       NNNNNNNKKNNNNNNN
+       NNFFFFF..FFFFFNN
+       NNF...F....F.FNN
+       NN.......F.F.FNN
+       SK..F....F.F.PBN
+       NN.LF.FF.F.F.FNN
+       NNFLF....F.LLFNN
+       NNFFFFFLLFFFFFNN
+       NNNNNNNWNNNNNNNN
+       NNNNNNNNNNNNNNNN
+
+mapa16:NNNNNNN6KNNNNNNN
+       NNNNNNNKKNNNNNNN
+       NN...F...F....NN
+       NN..4......4..NN
+       NN......P.....NN
+       QN...G........BN
+       NN.......P....NN
+       NN..4......4..NN
+       NN............NN
+       NNNNNNN7KNNNNNNN
+       NNNNNNNKKNNNNNNN
+
+mapa17:NNNNNNNUNNNNNNNN
+       NNNNNNNNNNNNNNNN
+       NN.....F......NN
+       NN.44......44.NN
+       NN.......G....NN
+       QN...P.....F..HK
+       NN............NN
+       NNF....44.....NN
+       NN........P.P.NN
+       NNNNNNN7KNNNNNNN
+       NNNNNNNKKNNNNNNN
+
+mapa18:NNNNNNNUNNNNNNNN
+       NNNNNNNNNNNNNNNN
+       NN............NN
+       NN......Y.....NN
+       NN............NN
+       QN....4..4....BN
+       NN............NN
+       NN............NN
+       NN............NN
+       NNNNNNN7KNNNNNNN
+       NNNNNNNKKNNNNNNN
+
+
+[infodemapas]
+16:mapa14
+17:mapa13
+18:mapa15
+19:mapa16
+20:mapa17
+21:mapa18
+
+
+[infogeneradores]
+mapa:destructible
+
+
+[.]
+tipo:suelo1 
+col:5
+fila:17
+
+[F]
+tipo:suelo1 
+col:5
+fila:17
+
+[Y]
+tipo:boss
+col:5
+fila:17
+
+[G]
+tipo:suelo1 
+col:5
+fila:17
+
+[L]
+tipo:lava
+col:30
+fila:13
+
+[4]
+tipo:piedra1
+col:4
+fila:19 
+
+[1]
+tipo:suelo2
+col:0
+fila:14
+
+[N]
+tipo:espacio_vacio
+col:5
+fila:15
+
+[3]
+tipo:pez_der
+col:5
+fila:18
+
+[5]
+tipo:pez_izq
+col:5
+fila:19
+
+[6]
+tipo:entradaA
+col:0
+fila:0 
+
+
+[S]
+tipo:entradaB
+col:1
+fila:0
+
+[H]
+tipo:entradaC
+col:2
+fila:0
+
+
+[7]
+tipo:entradaD
+col:3
+fila:0
+
+[R]
+tipo:entradaD
+col:3
+fila:0
+
+
+[K]
+tipo:entrada
+col:31
+fila:13
+
+
+[B]
+tipo:bloqueoA
+col:4
+fila:0
+
+
+[Q]
+tipo:bloqueoB
+col:5
+fila:0
+
+
+[U]
+tipo:bloqueoC
+col:6
+fila:0
+
+[W]
+tipo:bloqueoD
+col:7
+fila:0
+
+[P]
+tipo:agujero1
+col:5
+fila:1
+
